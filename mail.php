@@ -25,8 +25,8 @@ define("CONFIG_FILE", ROOT_DIR . str_replace('/', DIRECTORY_SEPARATOR, "/config/
 require ROOT_DIR . str_replace('/', DIRECTORY_SEPARATOR, "/vendor/autoload.php");
 
 // Classe à utiliser
-use Blackfox\GetOptions\GetOptions;
-use Blackfox\Simplemail\Simplemail;
+use ChrisDfr\GetOptions\GetOptions;
+use ChrisDfr\Simplemail\Simplemail;
 
 /**
  * Lit la configuration dans le fichier de conf
