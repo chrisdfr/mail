@@ -1,14 +1,11 @@
 {
-    "name": "blackfox/mail",
+    "name": "chrisdfr/mail",
     "description": "Mail permet l'envoi d'un email simple et rapide en ligne de commande",
     "type": "project",
+    "keywords": ["mail", "mailer", "phpmailer"],
     "require": {
-        "php": "^8.5",
         "blackfox/simplemail": "^1.0",
         "blackfox/getoptions": "^1.0"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^8.1"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -16,5 +13,6 @@
             "name": "Christophe Dufour",
             "email": "blackfox@proximus.be"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
