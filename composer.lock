@@ -4,32 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88110f19f47a64d9c01ff92c384631bd",
+    "content-hash": "2ce33fa78a44568ede212ba36b158b52",
     "packages": [
         {
-            "name": "blackfox/getoptions",
-            "version": "v1.0.2",
+            "name": "chrisdfr/getoptions",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/BlackFoxFire/getoptions.git",
-                "reference": "2075f28baa10a0f6efa369c0d622fb5c4174fa91"
+                "url": "https://github.com/chrisdfr/getoptions.git",
+                "reference": "ef2c60ac7d9acad5ca56a67c4867ead5ce4dd124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/getoptions/zipball/2075f28baa10a0f6efa369c0d622fb5c4174fa91",
-                "reference": "2075f28baa10a0f6efa369c0d622fb5c4174fa91",
+                "url": "https://api.github.com/repos/chrisdfr/getoptions/zipball/ef2c60ac7d9acad5ca56a67c4867ead5ce4dd124",
+                "reference": "ef2c60ac7d9acad5ca56a67c4867ead5ce4dd124",
                 "shasum": ""
-            },
-            "require": {
-                "php": "^8.5"
-            },
-            "require-dev": {
-                "symfony/var-dumper": "^8.1"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Blackfox\\GetOptions\\": "src/"
+                    "ChrisDfr\\GetOptions\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -43,25 +37,34 @@
                 }
             ],
             "description": "GetOptions permet de gérer les options passées en ligne de commande un script PHP",
+            "keywords": [
+                "argument",
+                "argv",
+                "command",
+                "getopt",
+                "getoptions",
+                "getopts",
+                "php-cli"
+            ],
             "support": {
-                "issues": "https://github.com/BlackFoxFire/getoptions/issues",
-                "source": "https://github.com/BlackFoxFire/getoptions/tree/v1.0.2"
+                "issues": "https://github.com/chrisdfr/getoptions/issues",
+                "source": "https://github.com/chrisdfr/getoptions/tree/v1.0.3"
             },
-            "time": "2026-10-26T10:06:11+00:00",
-            "published-time": "2026-10-26T10:10:56+00:00"
+            "time": "2026-11-11T16:30:23+00:00",
+            "published-time": "2026-11-11T18:07:29+00:00"
         },
         {
-            "name": "blackfox/simplemail",
-            "version": "v1.1.1",
+            "name": "chrisdfr/simplemail",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/BlackFoxFire/simplemail.git",
-                "reference": "d1040c09d187494c16ab16cff6fbbd8511b9fbb7"
+                "url": "https://github.com/chrisdfr/simplemail.git",
+                "reference": "dda170cbb9a03d95a6a08660d22650517072451e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/simplemail/zipball/d1040c09d187494c16ab16cff6fbbd8511b9fbb7",
-                "reference": "d1040c09d187494c16ab16cff6fbbd8511b9fbb7",
+                "url": "https://api.github.com/repos/chrisdfr/simplemail/zipball/dda170cbb9a03d95a6a08660d22650517072451e",
+                "reference": "dda170cbb9a03d95a6a08660d22650517072451e",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +73,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Blackfox\\Simplemail\\": "src/"
+                    "ChrisDfr\\Simplemail\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -90,11 +93,11 @@
                 "phpmailer"
             ],
             "support": {
-                "issues": "https://github.com/BlackFoxFire/simplemail/issues",
-                "source": "https://github.com/BlackFoxFire/simplemail/tree/v1.1.1"
+                "issues": "https://github.com/chrisdfr/simplemail/issues",
+                "source": "https://github.com/chrisdfr/simplemail/tree/v1.1.2"
             },
-            "time": "2026-11-03T16:44:23+00:00",
-            "published-time": "2026-11-03T16:45:24+00:00"
+            "time": "2026-11-11T17:22:25+00:00",
+            "published-time": "2026-11-11T17:56:53+00:00"
         },
         {
             "name": "phpmailer/phpmailer",

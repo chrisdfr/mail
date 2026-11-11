@@ -4,8 +4,8 @@
     "type": "project",
     "keywords": ["mail", "mailer", "phpmailer"],
     "require": {
-        "blackfox/simplemail": "^1.0",
-        "blackfox/getoptions": "^1.0"
+        "chrisdfr/simplemail": "^1.1",
+        "chrisdfr/getoptions": "^1.0"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
