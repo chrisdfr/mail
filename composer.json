@@ -5,9 +5,15 @@
     "keywords": ["mail", "mailer", "phpmailer"],
     "require": {
         "chrisdfr/simplemail": "^1.1",
-        "chrisdfr/getoptions": "^1.0"
+        "chrisdfr/getoptions": "^1.0",
+        "chrisdfr/configjson": "^1.0"
     },
     "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "ChrisDfr\\Mail\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Christophe Dufour",

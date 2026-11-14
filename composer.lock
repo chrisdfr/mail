@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ce33fa78a44568ede212ba36b158b52",
+    "content-hash": "c3a4221d0844bd372d0136fab646a41a",
     "packages": [
+        {
+            "name": "chrisdfr/configjson",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisdfr/configjson.git",
+                "reference": "f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisdfr/configjson/zipball/f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d",
+                "reference": "f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ChrisDfr\\ConfigJSON\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Dufour",
+                    "email": "chrisdfr@proximus.be"
+                }
+            ],
+            "description": "Librairie de configuration d'une application php à partir d'un fichier JSON",
+            "keywords": [
+                "config",
+                "configuration",
+                "json",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/chrisdfr/configjson/issues",
+                "source": "https://github.com/chrisdfr/configjson/tree/v1.0.0"
+            },
+            "time": "2026-11-14T10:17:34+00:00",
+            "published-time": "2026-11-14T13:10:24+00:00"
+        },
         {
             "name": "chrisdfr/getoptions",
             "version": "v1.0.3",
@@ -55,20 +102,23 @@
         },
         {
             "name": "chrisdfr/simplemail",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisdfr/simplemail.git",
-                "reference": "dda170cbb9a03d95a6a08660d22650517072451e"
+                "reference": "3e61eb6dc6f201e7fd50b86905b7902d5f503a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisdfr/simplemail/zipball/dda170cbb9a03d95a6a08660d22650517072451e",
-                "reference": "dda170cbb9a03d95a6a08660d22650517072451e",
+                "url": "https://api.github.com/repos/chrisdfr/simplemail/zipball/3e61eb6dc6f201e7fd50b86905b7902d5f503a63",
+                "reference": "3e61eb6dc6f201e7fd50b86905b7902d5f503a63",
                 "shasum": ""
             },
             "require": {
                 "phpmailer/phpmailer": "^6.9"
+            },
+            "require-dev": {
+                "chrisdfr/configjson": "@dev"
             },
             "type": "library",
             "autoload": {
@@ -83,7 +133,7 @@
             "authors": [
                 {
                     "name": "Christophe Dufour",
-                    "email": "blackfox@proximus.be"
+                    "email": "chrisdfr@proximus.be"
                 }
             ],
             "description": "Simplifie l'utilisation et l'envoie d'un message avec PHPMailer",
@@ -94,10 +144,10 @@
             ],
             "support": {
                 "issues": "https://github.com/chrisdfr/simplemail/issues",
-                "source": "https://github.com/chrisdfr/simplemail/tree/v1.1.2"
+                "source": "https://github.com/chrisdfr/simplemail/tree/v1.1.3"
             },
-            "time": "2026-11-11T17:22:25+00:00",
-            "published-time": "2026-11-11T17:56:53+00:00"
+            "time": "2026-11-14T13:00:10+00:00",
+            "published-time": "2026-11-14T13:05:27+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
